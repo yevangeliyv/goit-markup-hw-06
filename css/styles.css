@@ -505,6 +505,7 @@ img {
   align-items: center;
   width: 206px;
   height: 80px;
+  margin-right: 93px;
 }
 
 .join-text {
@@ -552,6 +553,47 @@ img {
   margin-left: 10px;
 }
 
+.subscribe-box {
+  /* width: 570px; */
+  height: 86px;
+}
+
+.subscribe-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--footer-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: #2f303a;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  width: 200px;
+  height: 50px;
+  font-family: Roboto;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-left: 12px;
+  padding: 10px 28px;
+}
 /* ==========WORKS========== */
 .works-title {
   margin-bottom: 4px;
